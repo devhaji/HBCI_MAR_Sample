@@ -15,6 +15,6 @@ EMSI.m : EMSI algorithm by H.Kim (hanyang university prof. C.H.Im)
 
 SSVEP_Accuracy.m : Calculate SSVEP accuracy
 
-EB_EMG_Accuracy.m : Calculate EB/EMG accuracy
+EB_EMG_Accuracy_W.m : Calculate EB/EMG accuracy
 
-EB_EMG_FPR.m : Calculate EB/EMG FPR
+EB_EMG_FPR_W.m : Calculate EB/EMG FPR
