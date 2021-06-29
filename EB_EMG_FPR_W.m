@@ -109,7 +109,7 @@ end
 
 disp('EB accuracy (%)')
 disp([num2str(sum(EB_cor==1)/60*100) ' %'])
-disp([num2str(sum(EB_cor==1)/10) ' ea/min'])
+disp([num2str(sum(EB_cor==1)/10.5) ' ea/min'])
 % 10.33 min = 
 
 thr_EMG = median(median(EMGforThr))/2;
@@ -128,4 +128,4 @@ for n = 1:N
 end
 disp('EMG accuracy (%)')
 disp([num2str(sum(EMG_cor==1)/60*100) ' %'])
-disp([num2str(sum(EMG_cor==1)/10) ' ea/min'])
+disp([num2str(sum(EMG_cor==1)/10.5) ' ea/min'])
